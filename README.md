@@ -53,7 +53,7 @@ $ go run example/gomnist.go
 If you don't have a GPU.
 
 ```
-$ go run -tags cpu example/gomnist.go
+$ go run -tags cpu example/mnist.go
 ```
 
 code sample

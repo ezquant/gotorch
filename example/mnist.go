@@ -20,7 +20,7 @@ func main() {
 		device = torch.Device("cpu")
 	}
 	model.To(device)
-	for epoch := 0; epoch < 10; epoch++ {
+	for epoch := 0; epoch < 20; epoch++ {
 		batch_index := 0
 		for dataset.Next() {
 			// Reset gradients.
